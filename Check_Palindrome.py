@@ -1,4 +1,4 @@
-:::: CHECK PALINDROME ::::
+#:::: CHECK PALINDROME ::::
 
 n = 1234
 
