@@ -1,7 +1,5 @@
 # Python Program to reverse an array using Two Pointers
 
-
-
 def reverseArray(arr):
     left = 0
     right = len(arr) - 1
@@ -20,7 +18,6 @@ if __name__ == "__main__":
   
     for i in range(len(arr)):
         print(arr[i], end=" ")
-
 
 
 
