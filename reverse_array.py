@@ -38,3 +38,25 @@ if __name__ == "__main__":
   
     for i in range(len(arr)):
         print(arr[i], end=" ")
+
+# Python Program to reverse an array using Recursion
+
+def reverseArr(arr, l, r):
+    if l >= r:
+        return
+  
+    arr[l], arr[r] = arr[r], arr[l]
+  
+    reverseArr(arr, l + 1, r - 1)
+
+def reverseArray(arr):
+    n = len(arr)
+    reverseArr(arr, 0, n - 1)
+
+if __name__ == "__main__":
+    arr = [1, 4, 3, 2, 6, 5]
+
+    reverseArray(arr)
+  
+    for i in range(len(arr)):
+        print(arr[i], end=" ")
